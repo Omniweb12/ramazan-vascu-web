@@ -13,6 +13,7 @@ export const Navigation = () => {
   const navItems = [
     { href: "/", label: "Acasă" },
     { href: "/specializari", label: "Specializări" },
+    { href: "/contact", label: "Contact" },
   ];
 
   return (
@@ -58,10 +59,12 @@ export const Navigation = () => {
               <Phone className="w-4 h-4" />
               <span>0371235335</span>
             </div>
-            <Button variant="medical" size="sm">
-              <Mail className="w-4 h-4 mr-2" />
-              Contact
-            </Button>
+            <Link to="/contact">
+              <Button variant="medical" size="sm">
+                <Mail className="w-4 h-4 mr-2" />
+                Contact
+              </Button>
+            </Link>
           </div>
 
           {/* Mobile menu button */}

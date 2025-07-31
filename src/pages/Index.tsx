@@ -65,10 +65,12 @@ const Index = () => {
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Button variant="hero" size="lg" className="text-lg px-8 py-4">
-                <Phone className="w-5 h-5 mr-2" />
-                Programează Consultație
-              </Button>
+              <Link to="/contact">
+                <Button variant="hero" size="lg" className="text-lg px-8 py-4">
+                  <Phone className="w-5 h-5 mr-2" />
+                  Programează Consultație
+                </Button>
+              </Link>
               <Button variant="outline" size="lg" className="text-lg px-8 py-4 bg-white/10 border-white/30 text-white hover:bg-white/20">
                 <Link to="/specializari" className="flex items-center">
                   <Stethoscope className="w-5 h-5 mr-2" />
@@ -161,10 +163,12 @@ const Index = () => {
                 </div>
               </div>
               
-              <Button variant="medical" size="lg" className="w-full sm:w-auto">
-                <Phone className="w-5 h-5 mr-2" />
-                Sună Acum
-              </Button>
+              <Link to="/contact">
+                <Button variant="medical" size="lg" className="w-full sm:w-auto">
+                  <Phone className="w-5 h-5 mr-2" />
+                  Sună Acum
+                </Button>
+              </Link>
             </div>
 
             <Card className="shadow-medical border-t-4 border-t-primary">
