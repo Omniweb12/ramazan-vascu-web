@@ -80,10 +80,21 @@ export const Footer = () => {
 
         <div className="flex flex-col sm:flex-row justify-between items-center">
           <div className="text-sm text-muted-foreground">
-            © 2024 Dr. Ramazan Diler - Chirurgie Vasculară. Toate drepturile rezervate.
+            © 2025 Dr. Ramazan Diler - Chirurgie Vasculară. Toate drepturile rezervate.
           </div>
           <div className="text-sm text-muted-foreground mt-2 sm:mt-0">
-            Constanta, România
+            <div>Constanta, România</div>
+            <div className="mt-1">
+              Developed by{" "}
+              <a 
+                href="https://omniweb.ro" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="text-primary hover:underline"
+              >
+                omniweb.ro
+              </a>
+            </div>
           </div>
         </div>
       </div>
