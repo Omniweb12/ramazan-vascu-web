@@ -23,11 +23,12 @@ export const Navigation = () => {
           {/* Logo */}
           <div className="flex-shrink-0">
             <Link to="/" className="flex items-center space-x-3">
-              <div className="w-12 h-12 bg-gradient-primary rounded-xl flex items-center justify-center shadow-button-medical">
-                <span className="text-primary-foreground font-bold text-xl">RD</span>
-              </div>
+              <img 
+                src="/lovable-uploads/9690725a-3905-496e-bcc0-b33d98156aa0.png" 
+                alt="Dr. Ramazan Diler Logo" 
+                className="h-12 w-auto"
+              />
               <div className="hidden sm:block">
-                <h1 className="text-xl font-bold text-foreground">Dr. Ramazan Diler</h1>
                 <p className="text-sm text-muted-foreground">Chirurgie Vasculară</p>
               </div>
             </Link>
