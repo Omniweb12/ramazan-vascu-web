@@ -28,7 +28,7 @@ const Index = () => {
 
   const stats = [
     { number: "15+", label: "Ani experiență" },
-    { number: "46000+", label: "Pacienți tratați" },
+    { number: "15000+", label: "Pacienți tratați" },
     { number: "10+", label: "Certificări" }
   ];
 
